@@ -26,12 +26,12 @@ function setup() {
 	bob4 = new Bob(420,600,5);
 	bob5 = new Bob(460,600,5);
 
-	roof = new Roof(400,200,800,20);
-	roof1 = new Roof(300,200,100,20);
-	roof2 = new Roof(340,200,100,20);
-	roof3 = new Roof(380,200,100,20);
-	roof4 = new Roof(420,200,100,20);
-	roof5 = new Roof(460,200,100,20);
+	//roof = new Roof(400,200,800,20);
+	roof1 = new Roof(300,200,10,20);
+	roof2 = new Roof(340,200,10,20);
+	roof3 = new Roof(380,200,10,20);
+	roof4 = new Roof(420,200,10,20);
+	roof5 = new Roof(460,200,10,20);
 
 	rope1 = new String(bob1.body,roof1.body,-bobDiameter*2,0);
 	rope2 = new String(bob2.body,roof2.body,-bobDiameter*1,0);
